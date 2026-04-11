@@ -28,6 +28,20 @@ Weitere Infos: [doc.sagemath.org/html/en/installation](https://doc.sagemath.org/
 sage --notebook jupyter
 ```
 
+## Slides exportieren
+
+Slides als HTML generieren:
+```bash
+sage -sh -c "jupyter nbconvert --to slides talk.ipynb"
+```
+
+Interaktiv im Browser (Pfeiltasten / Leertaste):
+```
+talk.slides.html
+```
+
+Als PDF drucken: `talk.slides.html?print-pdf` im Browser öffnen → Cmd+P → Als PDF speichern.
+
 ## Als PDF exportieren
 
 Benötigt pandoc:
